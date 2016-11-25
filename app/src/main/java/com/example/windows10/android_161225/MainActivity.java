@@ -51,28 +51,30 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        rb1.setOnCheckedChangeListener(new RadioButton.OnCheckedChangeListener() {
+        rb1.setOnClickListener(new RadioButton.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            public void onClick(View view) {
                 iv1.setImageResource(R.drawable.bunny);
 
             }
         });
-        rb2.setOnCheckedChangeListener(new RadioButton.OnCheckedChangeListener() {
+        rb2.setOnClickListener(new RadioButton.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            public void onClick(View view) {
                 iv1.setImageResource(R.drawable.cat);
 
             }
         });
-        rb3.setOnCheckedChangeListener(new RadioButton.OnCheckedChangeListener() {
+
+        rb3.setOnClickListener(new RadioButton.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+            public void onClick(View view) {
                 iv1.setImageResource(R.drawable.dog);
             }
         });
 
-         bt1.setOnClickListener(new Button.OnClickListener() {
+
+        bt1.setOnClickListener(new Button.OnClickListener() {
              @Override
              public void onClick(View view) {
                 finish();
