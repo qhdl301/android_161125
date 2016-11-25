@@ -2,7 +2,7 @@
 
 시작화면
 <br>
-<img src=" https://github.com/qhdl301/android_161125/blob/master/app/fixel/Screenshot_1480042587.png?raw=true" width=200px>
+<img src="https://github.com/qhdl301/android_161125/blob/master/app/fixel/Screenshot_1480042587.png?raw=true" width=200px></img>
 </br>
 두번째 화
 <br>
