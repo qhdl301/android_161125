@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         rb1.setOnCheckedChangeListener(new RadioButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                iv1.setImageResource(R.drawable.dog);
+                iv1.setImageResource(R.drawable.bunny);
 
             }
         });
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         rb3.setOnCheckedChangeListener(new RadioButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                iv1.setImageResource(R.drawable.bunny);
+                iv1.setImageResource(R.drawable.dog);
             }
         });
 
